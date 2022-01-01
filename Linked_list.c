@@ -203,9 +203,10 @@ int main()
             if (head == NULL)
             {
                 printf("the list is empty");
-            }
-            goto M;
+                goto M;
 
+            }
+            
             printf("1.Search by value\n2.Search by position: ");
             scanf("%d", &z);
             if (z == 1)
